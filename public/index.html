@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Sender</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <script src="/scripts/main.js" defer></script>
+</head>
+
+<body>
+  <h1>Email Sender Test</h1>
+  <form name="email-sender">
+    <div class="row">
+      <label for="to">
+        To:
+        <input type="email" name="to" id="to">
+      </label>
+    </div>
+    <div class="row">
+      <label for="from">
+        From:
+        <input type="email" name="from" id="from">
+      </label>
+    </div>
+    <div class="row">
+      <label for="subject">
+        Subject: 
+        <input type="text" name="subject" id="subject">
+      </label>
+    </div>
+    <div class="row">
+      <label for="text">
+        Message: 
+        <textarea name="text" id="text"></textarea>
+      </label>
+    </div>
+    <div class="row">
+      <button type="reset">Reset</button>
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</body>
+
+</html>
